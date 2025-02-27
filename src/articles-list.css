@@ -1,0 +1,16 @@
+.list-item {
+    padding: 10px 0; 
+}
+
+.list-item-title {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.list-item-description {
+    font-weight: 400;
+    color: gray;
+    padding-left: 10px;
+    font-size: 14px;
+}

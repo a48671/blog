@@ -1,11 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+header, main, footer {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
     font-family: Arial, sans-serif;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     line-height: 1.6;
-    background: #f9f9f9;
+    background: #fde4ab;
     color: #333;
+
 }
 
 h1, h2, h3 {
@@ -15,8 +39,8 @@ h1, h2, h3 {
 pre {
     background: #272822;
     color: #f8f8f2;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 4px;
+    border-radius: 4px;
     overflow-x: auto;
 }
 
