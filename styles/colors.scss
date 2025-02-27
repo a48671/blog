@@ -1,0 +1,13 @@
+:root {
+    --background-color: #f9d79d;
+    --text-color: #1c0f00;
+    --inverted-text-color: #f9d79d;
+    --text-accent-color: #9d3b02;
+}
+
+:export {
+    background: var(--background-color);
+    text: var(--text-color);
+    invertedText: var(--inverted-text-color);
+    textAccent: var(--text-accent-color);
+}

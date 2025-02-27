@@ -13,6 +13,7 @@
     "vercel": "vercel"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
     "next": "^15.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -22,6 +23,8 @@
     "@types/react": "19.0.10",
     "eslint": "^9",
     "eslint-config-next": "15.2.0",
-    "typescript": "5.7.3"
+    "sass": "^1.85.1",
+    "typescript": "5.7.3",
+    "typescript-plugin-css-modules": "^5.1.0"
   }
 }
