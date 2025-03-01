@@ -44,7 +44,7 @@ interface HeaderProps extends PropsWithChildren, HTMLAttributes<HTMLElement> {
 function Header({ className, children, ...restProps }: HeaderProps): ReactElement {
     return (
         <header
-            className={ className }
+            className={ classNames(styles.header, className) }
             { ...restProps }
         >
             { children }

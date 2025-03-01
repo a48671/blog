@@ -1,14 +1,15 @@
 import { Container } from 'components/container';
 import { PageLayout } from 'components/page-layout';
 import { enMetaData } from 'common/meta-data';
-import styles from './root-page.module.scss';
+import styles from './page.module.scss';
+import { PageTitle } from 'components/page-title';
 
 export default function Page() {
     return (
-        <PageLayout className={ styles.pageLayout }>
+        <PageLayout>
             <PageLayout.Header className={ styles.header }>
                 <Container>
-                    <h1 className={ styles.title }>{ enMetaData.title }</h1>
+                    <PageTitle>{ enMetaData.title }</PageTitle>
                 </Container>
             </PageLayout.Header>
             <PageLayout.Content className={ styles.content }>

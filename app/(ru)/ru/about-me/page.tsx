@@ -1,16 +1,16 @@
-import { enMetaData } from "common/meta-data";
 import { Container } from "components/container";
 import { PageLayout } from "components/page-layout";
-import { PageSubtitle } from "components/page-subtitle";
 import { PageTitle } from "components/page-title";
+import { ReactElement } from "react";
 
-export default function Page() {
+export default function AboutMe(): ReactElement {
     return (
         <PageLayout>
             <PageLayout.Header>
                 <Container>
-                    <PageTitle>{ enMetaData.title }</PageTitle>
-                    <PageSubtitle>List of article</PageSubtitle>
+                    <PageTitle>
+
+                    </PageTitle>
                 </Container>
             </PageLayout.Header>
             <PageLayout.Content>

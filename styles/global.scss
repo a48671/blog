@@ -11,4 +11,22 @@
 body {
     width: 100%;
     min-height: 100vh;
+    font-size: var(--text-size);
+    color: var(--text-color);
+}
+
+p {
+    margin: 10px 0;
+}
+
+.accent {
+    color: var(--text-accent-color);
+}
+
+strong {
+    font-weight: 600;
+}
+
+b {
+    font-weight: 600;
 }

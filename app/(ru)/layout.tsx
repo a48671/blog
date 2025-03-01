@@ -4,6 +4,7 @@ import "styles/global.scss";
 import { faviconElements } from "common/favicon-elements";
 import { twitterElements } from "common/twitter-elements";
 import { facebookElements } from "common/facebook-elements";
+import { LangEnum } from "common/types";
 
 export default function RootLayout({ children }: PropsWithChildren): ReactElement {
     return (
@@ -15,9 +16,9 @@ export default function RootLayout({ children }: PropsWithChildren): ReactElemen
                 <meta name="description" content={ enMetaData.description } />
                 <meta name="keywords" content={ enMetaData.mainKeywords } />
 
-                { facebookElements }
+                { facebookElements(LangEnum.RU) }
 
-                { twitterElements }
+                { twitterElements(LangEnum.RU) }
                 
                 { faviconElements }
 
